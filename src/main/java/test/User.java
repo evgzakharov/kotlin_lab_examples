@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.time.ZonedDateTime;
+
 @Getter
 @Setter
 @ToString
@@ -12,4 +14,9 @@ import lombok.ToString;
 public class User {
     private String name;
     private String surname;
+    private String patronymic;
+    private Integer age;
+
+    @Builder.Default
+    private ZonedDateTime created = ZonedDateTime.now();
 }

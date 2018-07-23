@@ -5,6 +5,7 @@ public class Main {
         User user = User.builder()
                 .name("test-name")
                 .surname("test-surname")
+                .age(25)
                 .build();
 
         System.out.println(user);
