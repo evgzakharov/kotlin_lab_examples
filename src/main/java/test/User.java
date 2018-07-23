@@ -19,4 +19,8 @@ public class User {
 
     @Builder.Default
     private ZonedDateTime created = ZonedDateTime.now();
+
+    public String getFullName() {
+        return surname + " " + name + " " + patronymic;
+    }
 }

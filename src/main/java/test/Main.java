@@ -9,5 +9,6 @@ public class Main {
                 .build();
 
         System.out.println(user);
+        System.out.println(user.getFullName());
     }
 }
