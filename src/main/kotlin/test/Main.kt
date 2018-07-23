@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     /**
      * TASK 2 - WORK WITH FILES
      *
-     * Try to collect all files to one big file
+     * Try to collect all files to one big file (sorting files in descending order)
      */
 
     val filesDir = File(ClassLoader.getSystemResource("files").file)
