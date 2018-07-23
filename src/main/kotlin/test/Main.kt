@@ -1,6 +1,11 @@
 package test
 
+import java.io.File
+
 fun main(args: Array<String>) {
+    /**
+     * TASK 1 - WORK WITH COLLECTIONS
+     */
     val text: String = ClassLoader.getSystemResource("kotlin_getting_started.txt").readText()
     println(text)
 
@@ -9,6 +14,22 @@ fun main(args: Array<String>) {
 //
 //    val mostPopularSymbols: List<Pair<Char, Int>> = mostPopularSymbols()
 //    println(mostPopularSymbols)
+
+    /**
+     * TASK 2 - WORK WITH FILES
+     *
+     * Try to collect all files to one big file
+     */
+
+    val filesDir = File(ClassLoader.getSystemResource("files").file)
+
+    val output = File(ClassLoader.getSystemResource("output.txt").file)
+
+    filesDir.walk().forEachIndexed { index, file ->
+        println("index=$index file=$file")
+    }
+
+    println("output:${output.readText()}")
 }
 
 /**

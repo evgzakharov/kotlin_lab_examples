@@ -1,0 +1,7 @@
+
+A cube is made of six squares; the square is therefore the base of the cube.
+Many geometric shapes of more than two dimensions are constructed by using regular two-dimensional shapes. That way a Tetrahedron is constructed with four triangles, a cube uses six squares. In that context, the shape that is used for construction is called base. The triangle is the base of the tetrahedron, and the square is the base of the cube.
+
+Note, that there are geometric figures that use different shapes. A pyramid uses one rectangle and four triangles. In that context, the rectangle is said to be the base of the shape. A cylinder uses a circle or an ellipse as a base.
+
+ This short article about mathematics can be made longer. You can help Wikipedia by adding to it.

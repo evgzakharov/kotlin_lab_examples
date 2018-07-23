@@ -1,0 +1,9 @@
+
+A drawing of a usual modern desktop computer.
+A computer is a machine (mostly electronic) that is able to take information (input), and process it to make new information (output).
+
+Calculating machines are old in the history of technology. Early examples are the astrolabe and the abacus. Today a computer is a programmable machine. The two principal characteristics of a computer are: It responds to a specific instruction set in a well-defined manner and it can execute a prerecorded list of instructions (a program). There are four main processing steps in a computer: inputting, storage, outputting and processing.
+
+Modern computers are very different from early computers. They can do billions of calculations per second. Most people have used a personal computer in their home or at work. Computers do many different jobs where automation is useful. Some examples are controlling traffic lights, vehicle computers, security systems, washing machines and digital televisions.
+
+A computer user can control it by a user interface. Input devices include keyboard, mouse, buttons, and touch screens. Some very sophisticated computers can also be controlled with voice commands or hand gestures or even brain signals through electrodes implanted in the brain or along nerves.
