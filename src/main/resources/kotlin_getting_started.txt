@@ -1,0 +1,14 @@
+Directory structure
+In mixed-language projects, Kotlin source files should reside in the same source root as the Java source files, and follow the same directory structure (each file should be stored in the directory corresponding to each package statement).
+
+In pure Kotlin projects, the recommended directory structure is to follow the package structure with the common root package omitted (e.g. if all the code in the project is in the "org.example.kotlin" package and its subpackages, files with the "org.example.kotlin" package should be placed directly under the source root, and files in "org.example.kotlin.foo.bar" should be in the "foo/bar" subdirectory of the source root).
+
+Source file names
+If a Kotlin file contains a single class (potentially with related top-level declarations), its name should be the same as the name of the class, with the .kt extension appended. If a file contains multiple classes, or only top-level declarations, choose a name describing what the file contains, and name the file accordingly. Use camel humps with an uppercase first letter (e.g. ProcessDeclarations.kt).
+
+The name of the file should describe what the code in the file does. Therefore, you should avoid using meaningless words such as "Util" in file names.
+
+Source file organization
+Placing multiple declarations (classes, top-level functions or properties) in the same Kotlin source file is encouraged as long as these declarations are closely related to each other semantically and the file size remains reasonable (not exceeding a few hundred lines).
+
+In particular, when defining extension functions for a class which are relevant for all clients of this class, put them in the same file where the class itself is defined. When defining extension functions that make sense only for a specific client, put them next to the code of that client. Do not create files just to hold "all extensions of Foo".

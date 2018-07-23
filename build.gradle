@@ -1,7 +1,20 @@
+buildscript {
+    ext {
+        kotlinVersion = '1.2.51'
+    }
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+    }
+}
+
 group = 'ru.alfalab.kotlin_lab_examples'
 version = '0.0.1'
 
-apply plugin: 'java'
+apply plugin: 'kotlin'
 
 repositories {
     mavenLocal()
@@ -9,4 +22,5 @@ repositories {
 }
 
 dependencies {
+    compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion")
 }
