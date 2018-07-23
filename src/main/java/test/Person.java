@@ -2,7 +2,6 @@ package test;
 
 import java.util.Objects;
 
-//TODO: external class, so not possible to change!
 public class Person {
     private Gender gender;
     private String name;

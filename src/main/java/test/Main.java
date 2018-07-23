@@ -17,9 +17,5 @@ public class Main {
         persons.add(userF);
 
         System.out.println(persons);
-
-        persons.remove(userM);
-
-        System.out.println(persons);
     }
 }
