@@ -18,7 +18,9 @@ fun main(args: Array<String>) {
     /**
      * TASK 2 - WORK WITH FILES
      *
-     * Try to collect all files to one big file (sorting files in descending order)
+     * Try to collect all files to one big file, with next conditions:
+     *  1. sorting files in descending order
+     *  2. max line length must be 120 symbols, if line exceed try to move to next line
      */
 
     val filesDir = File(ClassLoader.getSystemResource("files").file)
