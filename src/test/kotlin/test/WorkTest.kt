@@ -5,8 +5,6 @@ import org.junit.Test
 
 class WorkTest {
 
-    val text: String = ClassLoader.getSystemResource("kotlin_getting_started.txt").readText()
-
     @Test
     fun `test of execution of symbolCountPerLine`() {
         val symbolCountPerLineResult: List<Pair<Int, Int>> = symbolCountPerLine()
